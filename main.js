@@ -124,7 +124,7 @@ submitBtn.addEventListener("click", () => {
         else {
 
             if (score <= ((listQuizlength / 2) + 2)) {
-                JSquiz.innerHTML = `<h2 class="question">You finished quiz. Correct question ${score}/${listQuizlength}. You have IQ <= 120</h2>
+                JSquiz.innerHTML = `<h2 class="question">You finished quiz. Correct question ${score}/${listQuizlength}. You have IQ <= 125</h2>
                                    <button class="submit" onclick="location.reload();">Reload</button>`;
                 // } else if (score = ((listQuizlength / 2) + 2)) {
                 //     JSquiz.innerHTML = `<h2 class="question">You finished quiz. Correct question ${score}/${listQuizlength}. You have IQ = 120</h2>
@@ -137,7 +137,7 @@ submitBtn.addEventListener("click", () => {
             // }
 
             if (score > ((listQuizlength / 2) + 2)) {
-                JSquiz.innerHTML = `<h2 class="question">You finished quiz. Correct question ${score}/${listQuizlength}. You have IQ > 120</h2>
+                JSquiz.innerHTML = `<h2 class="question">You finished quiz. Correct question ${score}/${listQuizlength}. You have IQ > 125</h2>
                                   <button class="submit" onclick="location.reload();">Reload</button>`;
             }
 
